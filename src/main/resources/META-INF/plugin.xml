@@ -55,13 +55,13 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <consoleFilterProvider implementation="cn.feelcode.jpa.JpaLogProvider"/>
-        <toolWindow factoryClass ="cn.feelcode.jpa.JpaToolWindow" id="JpaSqlLog" anchor="bottom" icon="/icons/logo1_1616.png"/>
+        <toolWindow factoryClass ="cn.feelcode.jpa.JpaToolWindow" id="JpaSqlLog" anchor="bottom" icon="/icons/logo2_1616.png"/>
     </extensions>
 
     <actions>
         <!-- Add your actions here -->
         <action id="cn.feelcode.jpa.JpaSqlLogAction" class="cn.feelcode.jpa.JpaSqlLogAction" text="jpa sql log"
-                description="格式化jpa生成的log，拼接为标准sql语句" icon="/icons/logo1_1616.png">
+                description="格式化jpa生成的log，拼接为标准sql语句" icon="/icons/logo2_1616.png">
             <add-to-group group-id="ConsoleView.PopupMenu" anchor="last"/>
         </action>
     </actions>
