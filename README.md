@@ -1,7 +1,11 @@
-### jpa sql log
-基于Jpa控制台日志的sql格式化插件工具  
+### Jpa sql log
+* 基于Java语言编写的jar插件
+* 运行于JetBrains工具平台，如IntelliJ IDEA（ Plugin）， 甚至Android Studio平台
+* 基于Jpa控制台日志的sql格式化插件工具
+
+### Descriptions
 <p>This a plugin from <a href="http://www.feelcode.cn">www.feelcode.cn</a> which made by Juiler.</p>
-<p>You can use it to restore your jpa sql.</p>
+<p>You can use it on JetBrains tools(IntelliJ IDEA or Android Studio) to restore your jpa sql.</p>
 <hr style="border-bottom:3px double;">
 
 eg1:  from ```select * from table where _id=?``` to ```select * from table where _id=1```
