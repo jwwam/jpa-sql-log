@@ -1,2 +1,3 @@
 rootProject.name = 'jpa-sql-log'
+include 'jpa-sql-log'
 

@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'cn.feelcode'
-version '1.0'
+version '0.9'
 
 repositories {
     mavenCentral()
@@ -18,8 +18,9 @@ dependencies {
 intellij {
     version '2020.1'
 }
-patchPluginXml {
-    changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
-}
+//需要屏蔽以下，否则plugin.xml中的<change-notes>不会生效
+//patchPluginXml {
+//    changeNotes """
+//      Add change notes here.<br>
+//      <em>most HTML tags may be used</em>"""
+//}
