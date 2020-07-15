@@ -12,6 +12,9 @@ eg1:  from ```select * from table where _id=?``` to ```select * from table where
 
 eg2:  from  ```update table set create_date=?, update_date=?, product_id=?, status=? where id=?``` to  ```update table set create_date=2020-07-01 11:48:12.0, update_date=2020-07-01 11:48:12.0, product_id=1, status=0 where id=1```
 
+### ScreenShorts 
+![screen shorts](https://github.com/jwwam/jpa-sql-log/blob/master/screenshorts.png)  
+
 First at all,you must create a file named logback.xml or other,remeber that you must make the console log display jpa sql and parameter through configuration,maybe is application.yml or other config file, or you can add this in logback.xml</p>
 
 ```
