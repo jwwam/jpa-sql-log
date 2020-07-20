@@ -4,7 +4,7 @@
 * 基于Jpa控制台日志的sql格式化插件工具
 
 ### Descriptions
-<p>This a plugin from <a href="http://www.feelcode.cn">www.feelcode.cn</a> which made by Juiler.</p>
+<p>This a plugin from <a href="http://www.feelcode.cn">www.feelcode.cn</a> which made by Julier.</p>
 <p>You can use it on JetBrains tools(IntelliJ IDEA or Android Studio) to restore your jpa sql.</p>
 <hr style="border-bottom:3px double;">
 
