@@ -46,6 +46,11 @@
     <ul>
         <li>Initial version</li>
     </ul>
+    <label>2020.7.28</label>
+    <ul>
+        <li>Add Icon</li>
+        <li>Optimized Code</li>
+    </ul>
     ]]></change-notes>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
